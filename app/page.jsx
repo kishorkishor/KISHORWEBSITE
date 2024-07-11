@@ -1,6 +1,5 @@
 
 import Education from '@/app/_components/Education'; // Add this import
-
 import {
   Contact,
   Description,
