@@ -1,6 +1,5 @@
 {
   "name": "kkt",
-  "type": "module",
   "title": "kishor website ",
   "description": "meh",
   "author": {
@@ -8,6 +7,8 @@
     "email": "kishortarafder@gmail.com",
     "url": "nai"
   },
+  "type": "module",
+
   "keywords": [
     "Design",
     "Develope",
