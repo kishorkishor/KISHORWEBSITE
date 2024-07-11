@@ -1,13 +1,6 @@
-import React from 'react';
-import Head from 'next/head';
-
 export default function Education() {
     return (
         <div>
-            <Head>
-                {/* Import Spline scene */}
-                <script type="module" src="https://prod.spline.design/rNWIKytAccIyCr9A/scene.splinecode"></script>
-            </Head>
             <section style={{ margin: '1rem 0', padding: '0 10rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                 <div style={{ flex: 1, marginRight: '20px' }}>
                     <h2 style={{ fontSize: '4.0rem', marginBottom: '1rem' }}>Education</h2>
@@ -30,10 +23,6 @@ export default function Education() {
                             <li>Designed efficient algorithms for application functionality</li>
                         </ul>
                     </ul>
-                </div>
-                <div style={{ width: '300px', height: '500px' }}>
-                    {/* Spline viewer */}
-                    <spline-viewer url="https://prod.spline.design/rNWIKytAccIyCr9A/scene.splinecode"></spline-viewer>
                 </div>
             </section>
         </div>
