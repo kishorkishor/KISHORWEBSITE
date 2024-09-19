@@ -10,7 +10,12 @@ export const metadata = rootMetadata;
 /** @param {import('react').PropsWithChildren<unknown>} */
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' dir='ltr' className={neue_montreal.variable}>
+    <html
+      lang='en'
+      dir='ltr'
+      className={neue_montreal.variable}
+      suppressHydrationWarning
+    >
       <body className={neue_montreal.className}>
         <Providers>
           <Offcanvas />
