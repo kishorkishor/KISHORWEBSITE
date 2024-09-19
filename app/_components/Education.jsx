@@ -1,30 +1,54 @@
 export default function Education() {
-    return (
-        <div>
-            <section style={{ margin: '1rem 0', padding: '0 10rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                <div style={{ flex: 1, marginRight: '20px' }}>
-                    <h2 style={{ fontSize: '4.0rem', marginBottom: '1rem' }}>Education</h2>
-                    <ul style={{ listStyleType: 'disc', paddingLeft: '2.0rem' }}>
-                        <li>Bachelor of Engineering in Computer Science and Engineering from American International University – Bangladesh</li>
-                        <ul style={{ listStyleType: 'circle', paddingLeft: '2.0rem' }}>
-                            <li>CGPA: 3.92</li>
-                        </ul>
-                        <li>Govt. Science College, Tejgaon, Dhaka (GPA 5.0)</li>
-                        <li>Motijheel Government Boys' High School (GPA 5.0)</li>
-                    </ul>
-                    <h2 style={{ fontSize: '4.0rem', marginBottom: '1rem', marginTop: '2rem' }}>Internship Experience</h2>
-                    <ul style={{ listStyleType: 'disc', paddingLeft: '2.0rem' }}>
-                        <li>Position: Intern at Geo Teach</li>
-                        <ul style={{ listStyleType: 'circle', paddingLeft: '2.0rem' }}>
-                            <li>Duration: 1 year</li>
-                            <li>Project Research and Planning: Involved in detailed project research and planning phases</li>
-                            <li>Efficiency Improvement: Enhanced project timelines and efficiency through innovative thinking</li>
-                            <li>Developed various web applications using Angular and ASP.NET Core</li>
-                            <li>Designed efficient algorithms for application functionality</li>
-                        </ul>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    );
+  return (
+    <section className='place-items-baseline justify-between space-y-12 px-2 py-20 lg:container lg:flex'>
+      <div>
+        <h2 className='mb-6 text-4xl font-bold lg:text-7xl'>Education</h2>
+        <ul className='ml-8 max-w-lg list-outside list-disc space-y-2'>
+          <li>
+            <span className='font-bold'>High School:</span> Motijheel Government
+            Boys' High School <br />{' '}
+            <span className='mt-2 font-semibold'>GPA: 5.0</span>
+          </li>
+          <li>
+            <span className='font-bold'>College:</span> Govt. Science College,
+            Tejgaon, Dhaka <br />{' '}
+            <span className='mt-2 font-semibold'>GPA: 5.0</span>
+          </li>
+          <li>
+            <span className='font-bold'>University:</span> Bachelor of
+            Engineering in Computer Science and Engineering from American
+            International University – Bangladesh
+            <br />
+            <span className='mt-2 font-semibold'>CGPA: 3.92</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 className='mb-6 text-4xl font-bold lg:text-7xl'>
+          Internship Experience
+        </h2>
+        <ul className='ml-8 max-w-lg list-outside list-disc space-y-2'>
+          <li>
+            <span className='font-bold'>Position:</span>
+            Intern at Geo Teach <br />
+            <span className='font-semibold'>Duration: 1 year</span>
+          </li>
+
+          <li>
+            <span className='font-bold'>Project Research and Planning:</span>{' '}
+            Involved in detailed project research and planning phases
+          </li>
+          <li>
+            <span className='font-bold'>Efficiency Improvement:</span>
+            Enhanced project timelines and efficiency through innovative
+            thinking
+          </li>
+          <li>
+            Developed various web applications using Angular and ASP.NET Core
+          </li>
+          <li>Designed efficient algorithms for application functionality</li>
+        </ul>
+      </div>
+    </section>
+  );
 }
